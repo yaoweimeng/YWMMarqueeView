@@ -7,6 +7,7 @@
 //
 
 #import "YWMViewController.h"
+#import "YWMMarqueeView.h"
 
 @interface YWMViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    YWMMarqueeView *marqueeView = [[YWMMarqueeView alloc] initWithFrame:CGRectMake(0, 200, 100, 24)];
+    [self.view addSubview:marqueeView];
 }
 
 - (void)didReceiveMemoryWarning

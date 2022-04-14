@@ -1,0 +1,16 @@
+PODS:
+  - YWMMarqueeView (0.1.0)
+
+DEPENDENCIES:
+  - YWMMarqueeView (from `../`)
+
+EXTERNAL SOURCES:
+  YWMMarqueeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YWMMarqueeView: 94f9d5bc0c8cbc0cd6d53d2b76afe7b410a16d21
+
+PODFILE CHECKSUM: e598a6893a85df6a0e8ffc5b3f369054caacf200
+
+COCOAPODS: 1.10.1
